@@ -18,6 +18,7 @@ export default function Posts () {
           <Link to={post.slug} className="text-blue-600 my-4">{post.title}</Link>
         </li>
       ))}</ul>
+      <Link to='admin' className="text-red-600 underline">Admin</Link>
     </main>
   )
 }
